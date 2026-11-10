@@ -37,3 +37,32 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();
+
+// Burger House — living menu: staggered reveal on scroll + jump on "Order"
+(function () {
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io = !reduce && 'IntersectionObserver' in window ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      var el = e.target, i = Number(el.dataset.bhIndex || 0) % 3;
+      setTimeout(function () { el.classList.add('bh-in'); el.classList.remove('bh-hidden'); }, i * 120);
+      io.unobserve(el);
+    });
+  }, { threshold: 0.15 }) : null;
+
+  function prepare(card, idx) {
+    if (card.dataset.bhReady) return;
+    card.dataset.bhReady = '1';
+    card.dataset.bhIndex = idx;
+    if (io) { card.classList.add('bh-hidden'); io.observe(card); }
+    var btn = card.querySelector('.product-button');
+    if (btn) btn.addEventListener('click', function () {
+      card.classList.remove('bh-jump'); void card.offsetWidth; card.classList.add('bh-jump');
+      setTimeout(function () { card.classList.remove('bh-jump'); }, 800);
+    });
+  }
+  function scan() { document.querySelectorAll('.products-item').forEach(prepare); }
+  var mo = new MutationObserver(scan);
+  function start() { scan(); mo.observe(document.body, { childList: true, subtree: true }); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+})();
