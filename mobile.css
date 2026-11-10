@@ -1,0 +1,77 @@
+/* Burger House — responsive layer (tablet + mobile) */
+html,body{overflow-x:hidden}
+img{max-width:100%;height:auto}
+.burger-toggle{display:none}
+
+@media (max-width:1199px){
+  .container{padding:0 24px!important;box-sizing:border-box}
+  .menu{margin-left:40px!important}
+  .menu-item{margin-right:28px!important}
+  .menu-item a{white-space:nowrap;font-size:16px!important}
+  .main-title{font-size:88px!important}
+  .main-image{left:auto!important;right:-260px!important;top:-60px!important;width:720px!important}
+  .why-items{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:40px!important}
+  .products-items{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .order-form{margin-left:auto!important;margin-right:0!important}
+  .order-image{right:auto!important;left:-200px!important;width:760px!important}
+}
+
+@media (max-width:767px){
+  /* header + burger menu */
+  .header{padding:20px 0!important;position:relative;z-index:50}
+  .header .container{justify-content:space-between;gap:12px}
+  .logo img{height:40px;width:auto}
+  .currency{margin-left:auto!important;width:40px!important;height:40px!important;line-height:26px!important}
+  .burger-toggle{display:flex;flex-direction:column;justify-content:center;gap:6px;width:44px;height:44px;padding:10px;box-sizing:border-box;background:none;border:1px solid #fff;border-radius:5px;cursor:pointer;margin-left:12px;position:relative;z-index:60}
+  .burger-toggle span{display:block;height:2px;width:100%;background:#fff;border-radius:2px;transition:transform .25s,opacity .25s}
+  .header.menu-open .burger-toggle span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .header.menu-open .burger-toggle span:nth-child(2){opacity:0}
+  .header.menu-open .burger-toggle span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .menu{position:fixed!important;inset:0;margin:0!important;background:rgba(25,20,17,.97);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s;z-index:55}
+  .header.menu-open .menu{opacity:1;visibility:visible}
+  .menu-list{flex-direction:column;align-items:center;gap:32px}
+  .menu-item{margin:0!important}
+  .menu-item a{font-size:24px!important}
+  body.no-scroll{overflow:hidden}
+
+  /* hero */
+  .main{background-size:cover}
+  .main-content{padding-top:24px!important;padding-bottom:64px!important}
+  .main-content .container{display:flex;flex-direction:column}
+  .main-info{max-width:none!important;position:relative;z-index:2}
+  .main-small-info{font-size:14px!important;padding:8px 14px!important}
+  .main-title{font-size:48px!important;margin:16px 0 20px!important}
+  .main-text{font-size:17px!important;line-height:1.4!important;margin-bottom:24px!important}
+  .main-image{position:static!important;width:100%!important;margin:8px auto 0;order:2}
+  .button{width:100%!important;max-width:360px}
+
+  /* titles */
+  .common-title{font-size:34px!important;line-height:1.2!important}
+
+  /* why */
+  .why{padding-bottom:72px!important;background-size:cover!important}
+  .why-items{grid-template-columns:1fr!important;gap:40px!important;margin-top:32px!important}
+  .why-item-image{max-width:120px}
+  .why-item-title{font-size:21px!important;padding:14px 0!important}
+
+  /* products */
+  .products{padding-bottom:72px!important;background-size:cover!important}
+  .products-items{grid-template-columns:1fr!important;margin-top:32px!important}
+  .products-item{padding:20px!important}
+  .products-item-image{height:auto!important}
+  .products-item-extra{flex-wrap:wrap;gap:16px;align-items:center}
+  .button.product-button{width:auto!important;padding:0 24px!important}
+
+  /* order */
+  .order{padding-bottom:72px!important;background-size:cover!important}
+  .order-image{display:none!important}
+  .order-form{margin:32px auto 0!important;max-width:none!important;padding:32px 20px!important}
+  .order-form-text{font-size:19px!important;line-height:1.35!important}
+  .order-form-inputs{margin-top:24px!important}
+  .order-form-input,.order-form-inputs .button{width:100%!important;max-width:none!important}
+  .order-form-input input{width:calc(100% - 2px)!important;font-size:16px}
+
+  /* footer */
+  .footer{padding:32px 0!important}
+  .footer .container{flex-direction:column;gap:16px;text-align:center}
+}
