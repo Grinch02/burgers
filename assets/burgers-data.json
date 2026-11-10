@@ -1,0 +1,146 @@
+[
+ {
+  "image": "https://testologia.ru/burger-images/1.png",
+  "title": "Cheddar & Bacon Burger",
+  "text": "Crispy beef patty, bun, tomato, cheddar cheese, bacon, red onion, iceberg lettuce, mayo, ketchup, cheese sauce",
+  "price": 8,
+  "basePrice": 8,
+  "grams": 360
+ },
+ {
+  "image": "https://testologia.ru/burger-images/2.png",
+  "title": "BBQ Chicken & Bacon",
+  "text": "Sesame brioche bun, chicken patty, cheddar, tomato, pickled cucumber, pickled onion, romaine, bacon, BBQ sauce",
+  "price": 7,
+  "basePrice": 7,
+  "grams": 390
+ },
+ {
+  "image": "https://testologia.ru/burger-images/3.png",
+  "title": "Double Beef Burger",
+  "text": "Two beef patties, cheddar, romaine, pickles, fresh tomato, bacon, red onion, burger sauce, mustard",
+  "price": 10,
+  "basePrice": 10,
+  "grams": 420
+ },
+ {
+  "image": "https://testologia.ru/burger-images/4.png",
+  "title": "Bavarian Burger",
+  "text": "Burger bun, beef patty, red onion, cheese, smoked sausage, BBQ sauce, cheese sauce, iceberg lettuce",
+  "price": 8,
+  "basePrice": 8,
+  "grams": 360
+ },
+ {
+  "image": "https://testologia.ru/burger-images/5.png",
+  "title": "Bacon Cheeseburger",
+  "text": "Burger bun, beef patty, bacon, tomato, pickles, cheese, cheese sauce, ketchup, herbs",
+  "price": 8,
+  "basePrice": 8,
+  "grams": 220
+ },
+ {
+  "image": "https://testologia.ru/burger-images/6.png",
+  "title": "Indiana Burger",
+  "text": "Burger bun, chicken patty, bacon, egg, pickles, crispy onion, ketchup, cheese sauce, mustard, herbs",
+  "price": 9,
+  "basePrice": 9,
+  "grams": 320
+ },
+ {
+  "image": "https://testologia.ru/burger-images/7.png",
+  "title": "Veggie Burger",
+  "text": "Burger bun, veggie patty, red onion, cheese, fresh tomato, BBQ sauce, cheese sauce, iceberg lettuce",
+  "price": 8,
+  "basePrice": 8,
+  "grams": 280
+ },
+ {
+  "image": "https://testologia.ru/burger-images/8.png",
+  "title": "Crying Joe",
+  "text": "Burger bun, beef patty, bacon, tomato, pickles, red onion, cheese, jalapeño, ketchup, herbs",
+  "price": 7,
+  "basePrice": 7,
+  "grams": 300
+ },
+ {
+  "image": "https://testologia.ru/burger-images/9.png",
+  "title": "Double Cheeseburger",
+  "text": "Burger bun, two beef patties, double cheddar, pickles, crispy onion, ketchup, cheese sauce, mustard, herbs",
+  "price": 11,
+  "basePrice": 11,
+  "grams": 400
+ },
+ {
+  "image": "https://testologia.ru/burger-images/10.png",
+  "title": "Fresh Burger",
+  "text": "Burger bun, beef patty, bacon, cheddar, egg, salami, BBQ sauce, cheese sauce, iceberg lettuce, fresh tomato",
+  "price": 9,
+  "basePrice": 9,
+  "grams": 300
+ },
+ {
+  "image": "https://testologia.ru/burger-images/11.png",
+  "title": "Zucchini Burger",
+  "text": "Burger bun, chickpea veggie patty, grilled zucchini, tomato, pickles, cheese, mustard sauce, ketchup, herbs",
+  "price": 8,
+  "basePrice": 8,
+  "grams": 320
+ },
+ {
+  "image": "https://testologia.ru/burger-images/12.png",
+  "title": "Double Cheddar Burger",
+  "text": "Burger bun, beef patty, bacon, red onion, pickles, tomato, ketchup, double cheddar, mustard, herbs",
+  "price": 9,
+  "basePrice": 9,
+  "grams": 360
+ },
+ {
+  "image": "https://testologia.ru/burger-images/13.png",
+  "title": "Black & White Lite",
+  "text": "Black-and-white bun, beef patty, Parmesan, spicy sauce",
+  "price": 12,
+  "basePrice": 12,
+  "grams": 290
+ },
+ {
+  "image": "https://testologia.ru/burger-images/14.png",
+  "title": "Black & White Bacon",
+  "text": "Black-and-white bun, beef patty, bacon, cheddar, iceberg lettuce, sauce, pickle",
+  "price": 13,
+  "basePrice": 13,
+  "grams": 310
+ },
+ {
+  "image": "https://testologia.ru/burger-images/15.png",
+  "title": "Black & White Max",
+  "text": "Black-and-white bun, beef patty, cheddar, iceberg lettuce, egg, black sauce",
+  "price": 16,
+  "basePrice": 16,
+  "grams": 330
+ },
+ {
+  "image": "https://testologia.ru/burger-images/16.png",
+  "title": "Black Star Lite",
+  "text": "Black bun, chicken patty, egg, iceberg lettuce, fresh tomato, cucumber, Black sauce",
+  "price": 13,
+  "basePrice": 13,
+  "grams": 290
+ },
+ {
+  "image": "https://testologia.ru/burger-images/17.png",
+  "title": "Black Star",
+  "text": "Black bun, beef patty, cheddar, iceberg lettuce, fresh tomato, cucumber",
+  "price": 14,
+  "basePrice": 14,
+  "grams": 310
+ },
+ {
+  "image": "https://testologia.ru/burger-images/18.png",
+  "title": "Black Star Max",
+  "text": "Black bun, beef patty, bacon, onion, cheddar, iceberg lettuce, fresh tomato, ketchup",
+  "price": 15,
+  "basePrice": 15,
+  "grams": 330
+ }
+]
